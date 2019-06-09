@@ -1,0 +1,228 @@
+@import url("./hambergmenu.css");
+
+/* ---------------------Navigation Bar Started------------------- */
+
+#navBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #fff;
+    position: fixed;
+    width: 100%;
+    height: 112px;
+    align-items: center;
+    padding: 0 10rem;
+    border-bottom-color: black;
+    z-index: 1;
+    
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    width: 20px;
+    height: 40px;
+    align-items: center;
+}
+.logo img{
+    width: 30px;
+    height: 30px;
+    
+}
+.connect button{
+    display: none;
+}
+
+/* ---------------------Navigation Bar END------------------- */
+
+/* ---------------------HeaderBar START------------------- */
+
+#intro{
+    width: 100%;
+    background-color: rgb(34, 34, 34);
+    position: relative;
+    height: 360px;
+ }
+ .backGroundImage img{
+     display: none;
+ 
+ }
+ .backGroundImage .info{
+     width: 100%;
+     height: 305px;
+     position: relative;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     color: #fff;
+     padding-top: 10rem;
+ }
+ .info > p{
+     padding: 1rem 0;
+ }
+ .info .heading2, .heading3,.heading1 {
+     font-size: 1rem;
+     text-align: center;
+ }
+ .info button{
+     display: none;
+ }
+
+/* ---------------------HeaderBar END------------------- */
+
+/* ---------------------Services START------------------- */
+
+#services{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: #F9F9F9;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+.headings{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 3rem;
+}
+.headings > p{
+    padding: 1rem;
+}
+.differentServices{
+    display: flex;
+    flex-direction: column;
+}
+.differentServices .box{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    height: 550px;
+    justify-content: center;
+    
+}
+.differentServices .box > p,h1{
+    padding: 1rem 0;
+}
+.previousWork{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.previousWork > i{
+    font-size: 2rem;
+}
+.differentProjects{
+    display: flex;
+    flex-direction: column;
+}
+.differentProjects .box{
+    width: 100%;
+    height: 600px;
+    background: rgb(225, 229, 236);
+    margin: 2rem 0;
+}
+.differentProjects > .box > img{
+    width: 280px;
+    height: 300px;
+    padding: 1rem 0;
+}
+
+/* ---------------------Services END------------------- */
+
+/* ---------------------Clients STARTS------------------- */
+#clients{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 4rem 0;
+}
+.listOfClients{
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 0;
+}
+.container1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem 0;
+}
+.container1 > div{
+    margin: 2rem 0;
+}
+.container1 > div >img{
+    color: #212529;
+}
+/* ---------------------Clients ENDS------------------- */
+
+/* ---------------------Technologies START------------------- */
+
+#technologies{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+    background-color: #F9F9F9;
+
+}
+#technologies > h1{
+    font-size: 1rem;
+    text-align: center;
+}
+.listOfTechnologies{
+    display: flex;
+    margin: 2rem 0;
+    flex-direction: column;
+}
+.listOfTechnologies > div{
+    margin: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.listOfTechnologies > div >img{
+    margin-bottom: 1rem;
+}
+
+/* ---------------------Technologies ENDS------------------- */
+
+#testimonials{
+    background: rgb(115, 211, 214);
+    margin: 2rem 0;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1rem;
+}
+#testimonials .headings{
+    font-size: 1.5rem;
+}
+.says{
+    padding: 15px 0; 
+}
+.says .quote{
+    font-size: 1rem;
+    padding: 1rem 0;
+}
+footer{
+    width: 100%;
+    text-align: center;
+    margin: 3rem 0;
+}

@@ -1,0 +1,246 @@
+@import url("../hambergmenu.css");
+
+/* ---------------------Navigation Bar Started------------------- */
+
+#navBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #fff;
+    position: fixed;
+    width: 100%;
+    height: 112px;
+    align-items: center;
+    padding: 0 10rem;
+    border-bottom-color: black;
+    z-index: 1;
+    
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    width: 122px;
+    height: 40px;
+    align-items: center;
+}
+.logo img{
+    width: 40px;
+    height: 40px;
+    margin: 0 5px;
+}
+.connect button{
+    width: 127px;
+    height: 43px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 400;
+    box-sizing: border-box;
+    border-width: 2px;
+    border-color: black;
+    border-radius: 2px;
+    margin: 0 10px;
+    background-color: rgb(255, 255, 255);
+    line-height: 15px;
+}
+
+/* ---------------------Navigation Bar END------------------- */
+
+/* ---------------------HeaderBar START------------------- */
+
+#intro{
+    background-color: #fff;
+    position: relative;
+ }
+ .backGroundImage img{
+     width: 100%;
+     height: 760px;
+     padding: 0 5rem;
+     object-fit: cover;
+     position: absolute;
+ 
+ }
+ .backGroundImage .info{
+     position: relative;
+     width: 100%;
+     height: 100vh;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     color: black;
+ }
+ .info > p{
+     padding: 1rem 0;
+ }
+ .info  .heading1{
+     font-size: 5rem;
+     font-style: solid;
+ }
+ .info .heading2{
+     font-size: 2rem;
+     font-style: solid;
+ }
+ .info .heading3{
+     font-size: 1.2rem;
+     font-style: solid;
+ }
+ .info button{
+     margin-top: 10px;
+     width: 224px;
+     height: 44px;
+     background-color: rgb(0, 175, 111);
+     border-width: 2px;
+     border-color: rgb(0, 175, 111);
+     font-weight: 400;
+     font-size: 1rem;
+     cursor: pointer;
+ }
+
+/* ---------------------HeaderBar END------------------- */
+
+/* ---------------------Services START------------------- */
+
+#services{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: #F9F9F9;
+    align-items: center;
+    justify-content: center;
+    margin: 0 5rem;
+    
+}
+.headings{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 3rem;
+}
+.headings > p{
+    padding: 1rem;
+}
+.differentServices{
+    display: flex;
+    flex-direction: row;
+}
+.differentServices .box{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 300px;
+    height: 550px;
+    justify-content: center;
+    
+}
+.differentServices .box > p,h1{
+    padding: 1rem 0;
+}
+.previousWork{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.previousWork > i{
+    font-size: 2rem;
+    padding: 2rem;
+}
+.differentProjects{
+    display: flex;
+    flex-direction: row;
+}
+.differentProjects > .box{
+    width: 300px;
+    height: 600px;
+    background: rgb(225, 229, 236);
+    margin: 2rem 2rem;
+}
+.differentProjects > .box > img{
+    width: 300px;
+    height: 300px;
+}
+
+/* ---------------------Services END------------------- */
+
+/* ---------------------Clients STARTS------------------- */
+#clients{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 4rem 0;
+}
+.listOfClients{
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 0;
+}
+.container1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 2rem 0;
+}
+.container1 > div{
+    margin: 0 3rem;
+}
+.container1 > div >img{
+    color: #212529;
+}
+/* ---------------------Clients ENDS------------------- */
+
+/* ---------------------Technologies START------------------- */
+
+#technologies{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5rem;
+    padding-top: 4rem;
+    background-color: #F9F9F9;
+}
+.listOfTechnologies{
+    display: flex;
+    margin: 2rem 0;
+}
+.listOfTechnologies > div{
+    margin: 5rem 4rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.listOfTechnologies > div >img{
+    width: 80px;
+    height: 80px;
+    margin-bottom: 1rem;
+}
+
+/* ---------------------Technologies ENDS------------------- */
+
+#testimonials{
+    background: rgb(115, 211, 214);
+    margin: 2rem 5rem;
+    height: 721px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#testimonials .headings{
+    font-size: 2.5rem;
+}
+.says{
+    padding: 4rem 0; 
+}
+.says .quote{
+    font-size: 3rem;
+    padding: 2rem 0;
+}
+footer{
+    text-align: center;
+    margin: 3rem 0;
+}

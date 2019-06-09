@@ -1,0 +1,146 @@
+@import url("./hambergmenu.css");
+
+/* ---------------------Navigation Bar Started------------------- */
+
+#navBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #fff;
+    position: fixed;
+    width: 100%;
+    height: 112px;
+    align-items: center;
+    padding: 0 10rem;
+    border-bottom-color: black;
+    z-index: 3;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    width: 20px;
+    height: 40px;
+    align-items: center;
+}
+.logo img{
+    width: 30px;
+    height: 30px;
+    
+}
+.connect button{
+    display: none;
+}
+/* ---------------------Navigation Bar END------------------- */
+
+#intro{
+    position: relative;
+    width: 100%;
+ }
+ .backGroundImage video{
+     width: 100%;
+     height: 760px;
+     position: absolute;
+     z-index: 1;
+ }
+ .backGroundImage .info{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+}
+.info  .heading1{
+    font-size: 2rem;
+    font-style: solid;
+    z-index: 2;
+}
+
+#journey{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F9F9F9;
+}
+.introduction .into{
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0;
+}
+.introduction .into > p{
+    padding: 5px;
+}
+.introduction .quote{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.heading,.details{
+    text-align: center;
+}
+.quote > div{
+    padding: 0 1rem;
+}
+.founderDetails{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.founder{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.founder > div{
+    padding: 2rem;
+}
+.details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.details > h5{
+    padding: 1.5rem;
+}
+.details > p{
+    padding: 1.5rem;
+}
+
+
+#testimonials{
+    background: rgb(115, 211, 214);
+    width: 100%;
+    height: 721px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#testimonials .headings{
+    font-size: 2.5rem;
+}
+.says{
+    padding: 4rem 0; 
+}
+.says .quote{
+    font-size: 3rem;
+    padding: 2rem 0;
+}
+footer{
+    text-align: center;
+    margin: 3rem 0;
+}
